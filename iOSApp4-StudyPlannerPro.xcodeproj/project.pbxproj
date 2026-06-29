@@ -6,8 +6,35 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A4DE0A8B2FF1DFA300C32B0A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE0A8A2FF1DF9B00C32B0A /* WelcomeView.swift */; };
+		A4DE0A8D2FF1DFD800C32B0A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE0A8C2FF1DFD100C32B0A /* RootView.swift */; };
+		A4DE0A912FF1E03700C32B0A /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE0A902FF1E02F00C32B0A /* DashboardView.swift */; };
+		A4DE0A942FF1E0BC00C32B0A /* PlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE0A932FF1E0B600C32B0A /* PlannerView.swift */; };
+		A4DE0A962FF1E10E00C32B0A /* StudyProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE0A952FF1E10500C32B0A /* StudyProgressView.swift */; };
+		A4DE0A982FF1E14300C32B0A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE0A972FF1E13D00C32B0A /* SettingsView.swift */; };
+		A4DE0A9B2FF1E29700C32B0A /* SettingsPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE0A9A2FF1E26400C32B0A /* SettingsPopoverView.swift */; };
+		A4DE0A9C2FF1E9A300C32B0A /* SettingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE0A882FF1DEA600C32B0A /* SettingStore.swift */; };
+		A4DE0A9D2FF1E9C800C32B0A /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE0A992FF1E1C500C32B0A /* CircularProgressBar.swift */; };
+		A4DE0A9E2FF1E9D600C32B0A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE0A922FF1E08600C32B0A /* CardView.swift */; };
+		A4DE0A9F2FF1E9DD00C32B0A /* PlannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE0A892FF1DF3500C32B0A /* PlannerViewModel.swift */; };
+		A4DE0AA02FF1E9E300C32B0A /* StudySession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE0A872FF1DE7600C32B0A /* StudySession.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A4DE0A742FF1DDE000C32B0A /* iOSApp4-StudyPlannerPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSApp4-StudyPlannerPro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DE0A872FF1DE7600C32B0A /* StudySession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySession.swift; sourceTree = "<group>"; };
+		A4DE0A882FF1DEA600C32B0A /* SettingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingStore.swift; sourceTree = "<group>"; };
+		A4DE0A892FF1DF3500C32B0A /* PlannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerViewModel.swift; sourceTree = "<group>"; };
+		A4DE0A8A2FF1DF9B00C32B0A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		A4DE0A8C2FF1DFD100C32B0A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A4DE0A902FF1E02F00C32B0A /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		A4DE0A922FF1E08600C32B0A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A4DE0A932FF1E0B600C32B0A /* PlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerView.swift; sourceTree = "<group>"; };
+		A4DE0A952FF1E10500C32B0A /* StudyProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyProgressView.swift; sourceTree = "<group>"; };
+		A4DE0A972FF1E13D00C32B0A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A4DE0A992FF1E1C500C32B0A /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		A4DE0A9A2FF1E26400C32B0A /* SettingsPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPopoverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +59,11 @@
 		A4DE0A6B2FF1DDE000C32B0A = {
 			isa = PBXGroup;
 			children = (
-				A4DE0A762FF1DDE000C32B0A /* iOSApp4-StudyPlannerPro */,
+				A4DE0A862FF1DE4300C32B0A /* Stores */,
+				A4DE0A852FF1DE2E00C32B0A /* Components */,
+				A4DE0A842FF1DE2100C32B0A /* ViewModels */,
+				A4DE0A832FF1DE1600C32B0A /* Models */,
+				A4DE0A822FF1DE0200C32B0A /* Views */,
 				A4DE0A752FF1DDE000C32B0A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +74,54 @@
 				A4DE0A742FF1DDE000C32B0A /* iOSApp4-StudyPlannerPro.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A4DE0A822FF1DE0200C32B0A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE0A9A2FF1E26400C32B0A /* SettingsPopoverView.swift */,
+				A4DE0A972FF1E13D00C32B0A /* SettingsView.swift */,
+				A4DE0A952FF1E10500C32B0A /* StudyProgressView.swift */,
+				A4DE0A932FF1E0B600C32B0A /* PlannerView.swift */,
+				A4DE0A902FF1E02F00C32B0A /* DashboardView.swift */,
+				A4DE0A8C2FF1DFD100C32B0A /* RootView.swift */,
+				A4DE0A8A2FF1DF9B00C32B0A /* WelcomeView.swift */,
+				A4DE0A762FF1DDE000C32B0A /* iOSApp4-StudyPlannerPro */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4DE0A832FF1DE1600C32B0A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE0A872FF1DE7600C32B0A /* StudySession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4DE0A842FF1DE2100C32B0A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE0A892FF1DF3500C32B0A /* PlannerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A4DE0A852FF1DE2E00C32B0A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE0A992FF1E1C500C32B0A /* CircularProgressBar.swift */,
+				A4DE0A922FF1E08600C32B0A /* CardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A4DE0A862FF1DE4300C32B0A /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE0A882FF1DEA600C32B0A /* SettingStore.swift */,
+			);
+			path = Stores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +198,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4DE0A8D2FF1DFD800C32B0A /* RootView.swift in Sources */,
+				A4DE0A912FF1E03700C32B0A /* DashboardView.swift in Sources */,
+				A4DE0A8B2FF1DFA300C32B0A /* WelcomeView.swift in Sources */,
+				A4DE0A9B2FF1E29700C32B0A /* SettingsPopoverView.swift in Sources */,
+				A4DE0A9C2FF1E9A300C32B0A /* SettingStore.swift in Sources */,
+				A4DE0A9F2FF1E9DD00C32B0A /* PlannerViewModel.swift in Sources */,
+				A4DE0A962FF1E10E00C32B0A /* StudyProgressView.swift in Sources */,
+				A4DE0AA02FF1E9E300C32B0A /* StudySession.swift in Sources */,
+				A4DE0A982FF1E14300C32B0A /* SettingsView.swift in Sources */,
+				A4DE0A942FF1E0BC00C32B0A /* PlannerView.swift in Sources */,
+				A4DE0A9E2FF1E9D600C32B0A /* CardView.swift in Sources */,
+				A4DE0A9D2FF1E9C800C32B0A /* CircularProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
